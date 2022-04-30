@@ -13,6 +13,9 @@
 		36C5DDD9281C548D0083AAFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C5DDD7281C548D0083AAFE /* Main.storyboard */; };
 		36C5DDDB281C54900083AAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C5DDDA281C54900083AAFE /* Assets.xcassets */; };
 		36C5DDDE281C54900083AAFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C5DDDC281C54900083AAFE /* LaunchScreen.storyboard */; };
+		36C5DDE6281C59030083AAFE /* RailRoadBoxCarCondition.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 36C5DDE5281C59030083AAFE /* RailRoadBoxCarCondition.mlmodel */; };
+		36F9FDA0281CAB8E0039DDC6 /* RailroadBoxCarModelV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 36F9FD9F281CAB8E0039DDC6 /* RailroadBoxCarModelV2.mlmodel */; };
+		36F9FDA2281CB73D0039DDC6 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F9FDA1281CB73D0039DDC6 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		36C5DDDA281C54900083AAFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36C5DDDD281C54900083AAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36C5DDDF281C54900083AAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36C5DDE5281C59030083AAFE /* RailRoadBoxCarCondition.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = RailRoadBoxCarCondition.mlmodel; sourceTree = "<group>"; };
+		36F9FD9F281CAB8E0039DDC6 /* RailroadBoxCarModelV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = RailroadBoxCarModelV2.mlmodel; sourceTree = "<group>"; };
+		36F9FDA1281CB73D0039DDC6 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				36C5DDD1281C548D0083AAFE /* AppDelegate.swift */,
 				36C5DDD3281C548D0083AAFE /* SceneDelegate.swift */,
 				36C5DDD5281C548D0083AAFE /* ViewController.swift */,
+				36C5DDE5281C59030083AAFE /* RailRoadBoxCarCondition.mlmodel */,
+				36F9FD9F281CAB8E0039DDC6 /* RailroadBoxCarModelV2.mlmodel */,
 				36C5DDD7281C548D0083AAFE /* Main.storyboard */,
+				36F9FDA1281CB73D0039DDC6 /* ResultsViewController.swift */,
 				36C5DDDA281C54900083AAFE /* Assets.xcassets */,
 				36C5DDDC281C54900083AAFE /* LaunchScreen.storyboard */,
 				36C5DDDF281C54900083AAFE /* Info.plist */,
@@ -141,6 +150,9 @@
 				36C5DDD6281C548D0083AAFE /* ViewController.swift in Sources */,
 				36C5DDD2281C548D0083AAFE /* AppDelegate.swift in Sources */,
 				36C5DDD4281C548D0083AAFE /* SceneDelegate.swift in Sources */,
+				36C5DDE6281C59030083AAFE /* RailRoadBoxCarCondition.mlmodel in Sources */,
+				36F9FDA0281CAB8E0039DDC6 /* RailroadBoxCarModelV2.mlmodel in Sources */,
+				36F9FDA2281CB73D0039DDC6 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +309,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +319,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,6 +338,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +348,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
